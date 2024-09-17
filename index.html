@@ -1,384 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TerraNewBank2024</title>
-<meta name="description" content="">
-<meta name="author" content="">
-
-<!-- Favicons
-    ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
-
-<!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redireccionador</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .background {
+            background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.6)), url('https://img.lovepik.com/background/20211022/large/lovepik-technological-background-image_402010515.jpg'); /* Fondo de Google */
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .overlay {
+            padding: 20px;
+            background-color: #ffffff1a;
+           
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%; /* Ancho completo del contenedor */
+            height: 3rem;
+            margin-bottom: 10px;
+            font-size: 1.2rem; /* Tamaño de fuente mayor para los botones */
+            transition: transform 0.3s;
+      
+            border: none; /* Elimina el borde del botón para la transparencia */
+        }
+        .btn:hover {
+            transform: scale(1.1);
+        }
+        .btn i {
+            margin-right: 10px;
+        }
+    </style>
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Navigation
-    ==========================================-->
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top">Cyber Ecotienda</a> </div>
+<body>
+    <div class="background">
+        <div class="overlay">
+            <div class="d-flex flex-column align-items-center">
+                <div class="container">
+                    <div class="row">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#page-top" class="page-scroll">Inicio</a></li>
-        <li><a href="#about" class="page-scroll">Videos</a></li>
-       <li><a href="#portfolio" class="page-scroll">Productos</a></li>
-      <!--   <li><a href="#team" class="page-scroll">Chefs</a></li>-->
-        <li><a href="#call-reservation" class="page-scroll">Contactar</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </div>
-</nav>
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="intro-text">
-            <h1>TERRA BANK NEW</h1>
-            <p>Laptops/Motos/Carros</p>
-            <a href="#about" class="btn btn-custom btn-lg page-scroll">VIDEOS</a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6 ">
-        <div class="about-img">
-    <!--       <img src="img/about.jpg" class="img-responsive" alt=""> -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wbp6Qyk4Ea0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="about-text">
-          <h2>PRODUCTO EN VENTA</h2>
-          <hr>
-          <p>video esclusivo de cyer ecotienda.</p>
-        <!--  <h3>Awarded Chefs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6 ">
-        <div class="about-img">
-    <!--       <img src="img/about.jpg" class="img-responsive" alt=""> -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/wbp6Qyk4Ea0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="about-text">
-          <h2>PRODUCTO EN VENTA</h2>
-          <hr>
-          <p>video esclusivo de cyer ecotienda.</p>
-        <!--  <h3>Awarded Chefs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="section-title text-center center">
-    <div class="overlay">
-      <h2>CATALAGO DE PRODUCTOS</h2>
+                        <div class="col-md-12">
+                            <a href="http://3.145.204.115/" class="btn btn-success text-white p-2">
+                                <i class="fas fa-building"></i> TERRA NIU
+                            </a>
+                        </div>
 
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="categories">
-        <ul class="cat">
-          <li>
-            <ol class="type">
-              <li><a href="#" data-filter="*" class="active">todo</a></li>
-              <li><a href="#" data-filter=".breakfast">Laptops</a></li>
-              <li><a href="#" data-filter=".lunch">Motokares</a></li>
-              <li><a href="#" data-filter=".dinner">Carros</a></li>
-            </ol>
-          </li>
-        </ul>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>CORE I3</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Motokares</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Carros</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/laptop2Large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/laptop2Large.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Team Section
-<div id="team" class="text-center">
-  <div class="overlay">
-    <div class="container">
-      <div class="col-md-10 col-md-offset-1 section-title">
-        <h2>Meet Our Chefs</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-      </div>
-      <div id="row">
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/01.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Mike Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                        <div class="col-md-12">
+                            <a href="http://3.145.204.115/" class="btn btn-dark text-white">
+                                <i class="fas fa-shopping-cart"></i> ECOMMERCE
+                            </a>
+                        </div>
+                  
+                        <div class="col-md-12">
+                            <a href="https://www.facebook.com" target="_blank" class="btn btn-primary text-white">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                        </div>
+
+                        <div class="col-md-12">
+                            <a href="https://www.youtube.com" target="_blank" class="btn btn-danger text-white">
+                                <i class="fab fa-youtube"></i> YouTube
+                            </a>
+                        </div>
+           
+                  
+                        <div class="col-md-12">
+                            <a href="https://x.com" target="_blank" class="btn btn-info text-white">
+                                <i class="fab fa-twitter"></i> X (Twitter)
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/02.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Chris Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 team">
-          <div class="thumbnail">
-            <div class="team-img"><img src="img/team/03.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Ethan Doe</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-</div> -->
-<!-- Call Reservation Section -->
-<div id="call-reservation" class="text-center">
-  <div class="container">
-    <h2>NUESTRO NUMERO DE CELULAR <strong>985546789</strong></h2>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2>FORMULARIO DE CONTACTO</h2>
-      <hr>
-      <p>Escribenos a nuestro email si deseas alguno de estos productos</p>
-    </div>
-    <div class="col-md-10 col-md-offset-1">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">enviar mensaje</button>
-      </form>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="col-md-4">
-      <h3>Dirección</h3>
-      <div class="contact-item">
-        <p>Peru, San Martin</p>
-        <p>calle: 11</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Horas de atención</h3>
-      <div class="contact-item">
-        <p>Lunes a Viernes: 10:00 AM - 11:00 PM</p>
-        <p>Sabado a Domingos: 11:00 AM - 02:00 AM</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Formas de contactarnos</h3>
-      <div class="contact-item">
-        <p>celular: +51 980 768 564</p>
-        <p>email: info@company.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid text-center copyrights">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
-      </div>
-      <p>&copy; 2022 cyber ecotienda. All rights reserved. Designed by <a href="http://www.ecotienda.com" rel="nofollow">ecotienda</a></p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/SmoothScroll.js"></script>
-<script type="text/javascript" src="js/nivo-lightbox.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-<script type="text/javascript" src="js/contact_me.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
